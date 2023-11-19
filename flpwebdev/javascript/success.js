@@ -1,0 +1,1 @@
+alert("Thank you! Your submission was successful!")

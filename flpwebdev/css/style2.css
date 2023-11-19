@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@400;500&family=Vast+Shadow&display=swap');
+
+body {
+  padding: 0;
+  background-color: #663399;
+  font-family: "Rubik", "sans-serif";
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+p {
+  text-indent: 2rem;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "Vast Shadow", "sans-serif";
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: "Bebas Neue", "sans-serif";
+}
+
+h3 {
+  text-align: center;
+  font-family: "Vast Shadow", "sans-serif";
+}
+
+h4 {
+  text-align: center;
+  font-family: "Bebas Neue", "sans-serif";
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+.brand-icon {
+  max-width: 42px;
+  max-height: 42px;
+  margin-right: 0.75rem;
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue", "sans-serif";
+  font-size: 30px;
+}
+
+.nav-item {
+  font-family: "Bebas Neue", "sans-serif";
+  font-size: 26px;
+}
+
+.hello {
+  font-family: "Bebas Neue", "sans-serif";
+  letter-spacing: 1px;
+  text-align: center;
+  text-indent: 0;
+  border: 2px solid black;
+  background: pink;
+  color: black;
+  box-shadow: 1px 1px 2px grey;
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.wrapper {
+  margin-inline: auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  background-image: url("/media/polygons.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-me {
+  font-family: "Bebas Neue", "sans-serif";
+  text-align: center;
+}
+
+.attribution {
+  font-size: x-small;
+  text-align: right;
+}
+
+/* pseudo-class and pseudo-elements */
+.interests li::before {
+  content: "»";
+  margin: 0.5rem;
+}
+
+a:hover {
+  background-color: #C9A0DC;
+  cursor: crosshair;
+  color: whitesmoke;
+}
+
+/* client-side form validation */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #form-submitted-msg {
+    margin-bottom: 3rem;
+    border-radius: 3px;
+    background-color: rgb(67, 161, 67);
+    padding: 0.5rem;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    display: none;
+  }
+  
+  #exampleForm {
+    width: 40%;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group:not(.radio):not(.checkbox) {
+    gap: 0.25rem;
+    flex-direction: column;
+  }
+  
+  .input-group:not(.radio):not(.checkbox) input {
+    width: 100%;
+    border-radius: 0.375rem !important;
+  }
+  
+  .input-group.checkbox {
+    gap: 1rem;
+  }
+  
+  .input-group.radio {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  
+  .input-group.select select {
+    width: 100%;
+  }
+
+  .input-message {
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+  }
+  
+  legend {
+    font-size: 1rem;
+    width: max-content;
+  }
+  
+  .form-btns {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2.5rem;
+  }
+  
+  .form-btns > button {
+    padding: 0.3rem 1.5rem;
+  }
+  
+  .form-btns > .submit {
+    padding-inline: 3rem;
+  }
+  
+  .error-msg {
+    display: error;
+
+  }
